@@ -8,12 +8,24 @@ namespace Xcom2DamageCalculator
 {
     public class CombatValues
     {
-        public int currentCritChance { get; set; }
+        public double currentCritChance { get; set; }
 
-        public int currentHitChance { get; set; }
+        public double currentHitChance { get; set; }
 
-        public int currentGraze { get; set; }
+        public double currentGraze { get; set; }
 
-        public int currentMiss { get; set; }
+        public double currentMiss { get; set; }
+
+        public List<float> damageRolls { get; set; }
+
+        public int AimBonus { get; set; }
+
+        public int LowDamage { get; set; }
+
+        public int HighDamage { get; set; }
+
+        public int CritDamage { get; set; }
+
+        public int CritBonus { get; set; }
     }
 }
